@@ -1,0 +1,144 @@
+
+
+body {
+    border-style: solid;
+    border-width: 5px;
+    
+ }
+
+ header{
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    background-color: #AED6F1;
+ }
+
+ .insesion{
+    border-style: solid;
+    border-width: 5px;    
+ }
+
+ footer{
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    background-color: #AED6F1;
+}
+
+
+
+
+
+/*-------------------Encabezado inicio de sesion cliente---------------------------------*/
+.headcliente {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+}
+
+.nombrecliente {
+   margin: 0;
+   flex-grow: 1;
+}
+
+.idcliente {
+   margin: 5px 0;
+}
+
+.imgcliente {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-right: 10px;
+}
+
+/* Estilos responsive */
+@media only screen and (max-width: 600px) {
+   .headclienteer {      
+     padding: 5px;
+   }
+
+   .nombrecliente {
+     font-size: 18px;
+   }
+
+   .idcliente {
+     font-size: 14px;
+   }
+
+   .imgcliente {
+     width: 80px;
+     height: 80px;
+   }
+ }
+
+
+
+
+
+ /* Estilos de las tablas */
+ table {
+   border-collapse: collapse;
+   width: 100%;
+   margin-bottom: 20px;
+ }
+
+ th, td {
+   border: 1px solid #ccc;
+   padding: 8px;
+   text-align: left;
+ }
+
+ .tablacreadas {
+   background-color: #4527a0; /*#333;*/
+   color: #fff;
+ }
+
+ .tablarecibidas {
+   background-color: #558b2f; /*#333;*/
+   color: #fff;
+ }
+
+ .tablamuestras {
+  background-color: #d84315; /*#333;*/
+  color: #fff;
+}
+
+ /* Estilos de los botones */
+ .button-container {
+   margin-bottom: 10px;
+ }
+
+ .button {
+   display: inline-block;
+   padding: 8px 12px;
+   background-color: #333;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   margin-right: 5px;
+ }
+
+ /* Estilos de la navegación */
+ .navigation {
+   text-align: center;
+ }
+
+ .navigation button {
+   margin: 5px;
+ }
+
+ /* Estilos responsive */
+ @media only screen and (max-width: 600px) {
+   h2 {
+     font-size: 18px;
+   }
+
+   .button {
+     font-size: 12px;
+     padding: 5px 8px;
+   }
+ }
